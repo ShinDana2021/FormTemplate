@@ -105,3 +105,13 @@ form {
     cursor: pointer;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
+@media(max-width:740px) {
+    .body {
+        margin: 0 40px;
+    }
+
+    .btn-submit {
+        width: 50%;
+    }
+}
